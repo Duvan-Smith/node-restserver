@@ -12,6 +12,7 @@ class Server {
       usuarios : "/api/usuarios",
       categorias : "/api/categorias",
       productos : "/api/productos",
+      buscar : "/api/buscar",
     }
 
     this.conectarDB();
@@ -36,6 +37,7 @@ class Server {
     this.app.use(this.paths.usuarios, require("../routes/usuarios.route"));
     this.app.use(this.paths.categorias, require("../routes/categorias.route"));
     this.app.use(this.paths.productos, require("../routes/productos.route"));
+    this.app.use(this.paths.buscar, require("../routes/buscar.route"));
   }
 
   listen() {
