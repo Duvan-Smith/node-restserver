@@ -2,17 +2,17 @@
 
 * ## Ejecutar en desarrollo
 
-    1. Clonar
+1. Clonar
 
-    2. Ejecutar
-    ```
-    npm install
-    ```
+2. Ejecutar
+```
+npm install
+```
 
-    3. Ejecutar la aplicacion en dev:
-    ```
-    npx nodemon .\app.js
-    ```
+3. Ejecutar la aplicacion en dev:
+```
+npx nodemon .\app.js
+```
 
 # Stack usado
 * MongoDB - Atlas
